@@ -1,0 +1,17 @@
+:root { --paper:#F7F2E8; --ink:#2B241E; --muted:#8C8478; --line:#D8D0C2; }
+@media (prefers-color-scheme: dark) { :root { --paper:#1B1815; --ink:#E8E1D6; --muted:#8A8177; --line:#3A342E; } }
+html { background: var(--paper); }
+body { margin:0; color:var(--ink); background:var(--paper); font-family:"Gowun Batang", Georgia, serif; line-height:1.8; }
+main { max-width:560px; margin:0 auto; padding:48px 28px 96px; }
+h1 { font-size:26px; margin:0 0 4px; }
+h2 { font-size:17px; margin:40px 0 8px; }
+p, li { font-size:15px; }
+.muted { color:var(--muted); font-size:13px; }
+table { border-collapse:collapse; width:100%; font-size:14px; }
+th, td { text-align:left; padding:8px 6px; border-bottom:1px solid var(--line); vertical-align:top; }
+th { color:var(--muted); font-weight:400; }
+a { color:var(--ink); }
+nav a { color:var(--muted); text-decoration:none; font-size:13px; margin-right:14px; }
+.word { font-size:56px; font-weight:700; text-align:center; margin:64px 0 8px; }
+.hint { text-align:center; color:var(--muted); }
+.center { text-align:center; }
